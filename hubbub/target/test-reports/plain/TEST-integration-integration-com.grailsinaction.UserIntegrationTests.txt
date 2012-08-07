@@ -1,0 +1,10 @@
+Testsuite: com.grailsinaction.UserIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,053 sec
+------------- Standard Output ---------------
+--Output from testFollowing--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testFollowing--
+------------- ---------------- ---------------
+
+Testcase: testFollowing took 0,05 sec
