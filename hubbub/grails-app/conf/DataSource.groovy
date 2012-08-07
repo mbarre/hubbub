@@ -15,6 +15,7 @@ environments {
 			username = "sa"
 			password = ""
             url = "jdbc:hsqldb:mem:devDB"
+			logSql = "true"
         }
     }
     test {

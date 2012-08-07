@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" name="com.grailsinaction.PostTests" tests="1" time="0.232" timestamp="2012-08-05T18:55:41">
+<testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" name="com.grailsinaction.PostTests" tests="1" time="0.032" timestamp="2012-08-07T20:01:02">
   <properties />
-  <testcase classname="com.grailsinaction.PostTests" name="testSomething" time="0.209" />
+  <testcase classname="com.grailsinaction.PostTests" name="testSomething" time="0.0040" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="1" failures="0" hostname="MacBook-Air-de-Michele.local" id="0" name="PostIntegrationTests" package="com.grailsinaction" tests="3" time="1.63" timestamp="2012-08-05T18:55:53">
+  <testsuite errors="1" failures="0" hostname="MacBook-Air-de-Michele.local" id="0" name="PostIntegrationTests" package="com.grailsinaction" tests="3" time="1.22" timestamp="2012-08-07T20:01:16">
       <properties />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testFirstPost" time="1.324" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testFirstPost" time="0.935" />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.047" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.028" />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.25">
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.251">
           <error message="No signature of method: static groovy.lang.MissingMethodException.addToTags() is applicable for argument types: (com.grailsinaction.Tag) values: [com.grailsinaction.Tag : null]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: static groovy.lang.MissingMethodException.addToTags() is applicable for argument types: (com.grailsinaction.Tag) values: [com.grailsinaction.Tag : null]
 	at com.grailsinaction.PostIntegrationTests.testPostWithTags(PostIntegrationTests.groovy:49)
 </error>
@@ -25,10 +25,26 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="1" name="UserIntegrationTests" package="com.grailsinaction" tests="1" time="0.053" timestamp="2012-08-05T18:55:55">
+  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="1" name="QueryIntegrationTests" package="com.grailsinaction" tests="2" time="0.228" timestamp="2012-08-07T20:01:17">
       <properties />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFollowing" time="0.05" />
+      <testcase classname="com.grailsinaction.QueryIntegrationTests" name="testBasicDynamicFinders" time="0.184" />
+
+      <testcase classname="com.grailsinaction.QueryIntegrationTests" name="testQueryByExample" time="0.04" />
+
+      <system-out><![CDATA[--Output from testBasicDynamicFinders--
+--Output from testQueryByExample--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testBasicDynamicFinders--
+--Output from testQueryByExample--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="2" name="UserIntegrationTests" package="com.grailsinaction" tests="1" time="0.031" timestamp="2012-08-07T20:01:17">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFollowing" time="0.031" />
 
       <system-out><![CDATA[--Output from testFollowing--
 ]]></system-out>
@@ -37,10 +53,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="2" name="PostTests" package="com.grailsinaction" tests="1" time="0.232" timestamp="2012-08-05T18:55:41">
+  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="3" name="PostControllerTests" package="com.grailsinaction" tests="1" time="0.96" timestamp="2012-08-07T20:01:01">
       <properties />
 
-      <testcase classname="com.grailsinaction.PostTests" name="testSomething" time="0.209" />
+      <testcase classname="com.grailsinaction.PostControllerTests" name="testSomething" time="0.924" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -49,10 +65,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="3" name="ProfileTests" package="com.grailsinaction" tests="1" time="0.014" timestamp="2012-08-05T18:55:42">
+  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="4" name="PostTests" package="com.grailsinaction" tests="1" time="0.032" timestamp="2012-08-07T20:01:02">
       <properties />
 
-      <testcase classname="com.grailsinaction.ProfileTests" name="testSomething" time="0.0050" />
+      <testcase classname="com.grailsinaction.PostTests" name="testSomething" time="0.0040" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -61,10 +77,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="4" name="TagTests" package="com.grailsinaction" tests="1" time="0.014" timestamp="2012-08-05T18:55:42">
+  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="5" name="ProfileControllerTests" package="com.grailsinaction" tests="1" time="0.026" timestamp="2012-08-07T20:01:02">
       <properties />
 
-      <testcase classname="com.grailsinaction.TagTests" name="testSomething" time="0.0040" />
+      <testcase classname="com.grailsinaction.ProfileControllerTests" name="testSomething" time="0.021" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -73,10 +89,58 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="5" name="UserTests" package="com.grailsinaction" tests="1" time="0.023" timestamp="2012-08-05T18:55:42">
+  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="6" name="ProfileTests" package="com.grailsinaction" tests="1" time="0.09" timestamp="2012-08-07T20:01:03">
       <properties />
 
-      <testcase classname="com.grailsinaction.UserTests" name="testSomething" time="0.011" />
+      <testcase classname="com.grailsinaction.ProfileTests" name="testSomething" time="0.01" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="7" name="TagControllerTests" package="com.grailsinaction" tests="1" time="0.031" timestamp="2012-08-07T20:01:03">
+      <properties />
+
+      <testcase classname="com.grailsinaction.TagControllerTests" name="testSomething" time="0.018" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="8" name="TagTests" package="com.grailsinaction" tests="1" time="0.018" timestamp="2012-08-07T20:01:03">
+      <properties />
+
+      <testcase classname="com.grailsinaction.TagTests" name="testSomething" time="0.012" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="9" name="UserControllerTests" package="com.grailsinaction" tests="1" time="0.092" timestamp="2012-08-07T20:01:03">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserControllerTests" name="testSomething" time="0.083" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="MacBook-Air-de-Michele.local" id="10" name="UserTests" package="com.grailsinaction" tests="1" time="0.021" timestamp="2012-08-07T20:01:03">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserTests" name="testSomething" time="0.018" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>

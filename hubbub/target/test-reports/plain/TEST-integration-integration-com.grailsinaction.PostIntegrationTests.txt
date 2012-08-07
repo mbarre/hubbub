@@ -1,5 +1,5 @@
 Testsuite: com.grailsinaction.PostIntegrationTests
-Tests run: 3, Failures: 0, Errors: 1, Time elapsed: 1,63 sec
+Tests run: 3, Failures: 0, Errors: 1, Time elapsed: 1,22 sec
 ------------- Standard Output ---------------
 --Output from testFirstPost--
 --Output from testAccessingPosts--
@@ -11,9 +11,9 @@ Tests run: 3, Failures: 0, Errors: 1, Time elapsed: 1,63 sec
 --Output from testPostWithTags--
 ------------- ---------------- ---------------
 
-Testcase: testFirstPost took 1,324 sec
-Testcase: testAccessingPosts took 0,047 sec
-Testcase: testPostWithTags took 0,243 sec
+Testcase: testFirstPost took 0,935 sec
+Testcase: testAccessingPosts took 0,028 sec
+Testcase: testPostWithTags took 0,245 sec
 	Caused an ERROR
 No signature of method: static groovy.lang.MissingMethodException.addToTags() is applicable for argument types: (com.grailsinaction.Tag) values: [com.grailsinaction.Tag : null]
 groovy.lang.MissingMethodException: No signature of method: static groovy.lang.MissingMethodException.addToTags() is applicable for argument types: (com.grailsinaction.Tag) values: [com.grailsinaction.Tag : null]
