@@ -17,6 +17,7 @@ class UserController {
 	
 	def advResults = {
 		println params
+		println "${params.queryType}"
 		def profileProps = Profile.metaClass.properties*.name
 		def profiles = Profile.withCriteria{
 			"${params.queryType}" {
